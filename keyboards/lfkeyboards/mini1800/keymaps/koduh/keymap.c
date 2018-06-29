@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
 [FUNC] = LAYOUT(
   KC_GRV,   KC_F1,   KC_F2,   KC_F3,  KC_F4,   KC_F5, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,   RGB_TOG, RGB_SAI, RGB_HUI, RGB_VAI,
-  KC_NO,    KC_HOME, KC_UP,   KC_END, KC_PGUP, KC_NO, KC_NO,   KC_NO,   KC_INS,  KC_NO,   KC_PRT,  BL_DEC,  BL_INC,  BL_TOGG,  RGB_MOD, RGB_SAD, RGB_HUD, RGB_VAD,
+  KC_NO,    KC_HOME, KC_UP,   KC_END, KC_PGUP, KC_NO, KC_NO,   KC_NO,   KC_INS,  KC_NO,   KC_PSCR, BL_DEC,  BL_INC,  BL_TOGG,  RGB_MOD, RGB_SAD, RGB_HUD, RGB_VAD,
   KC_TR,    KC_LEFT, KC_DOWN, KC_RGHT,KC_PGDN, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_NO ,   KC_TR,   KC_TR,   KC_TR,   KC_TR,
   KC_TR,    KC_NO,   KC_CALC, KC_NO,  KC_NO,   KC_NO, KC_NO,   KC_MUTE, KC_VOLD, KC_VOLU, KC_NO,            TG(SETTINGS),KC_TR,KC_TR,   KC_TR,   KC_TR,   KC_TR,
   KC_TR,    KC_TR,   KC_TR,                    KC_TR,                            KC_TR,   KC_TR,   KC_TR,   KC_TR,   KC_TR,    KC_TR,   KC_TR,   KC_TR),
